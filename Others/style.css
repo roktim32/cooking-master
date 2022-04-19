@@ -1,0 +1,66 @@
+.random h2{
+    color: cornflowerblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.my-list + ul{
+    list-style: none;
+}
+
+.nav-link > li{
+    color: blueviolet;
+}
+
+.link li:nth-child(1){
+    color: rgb(229, 255, 0);
+}
+
+#testing{
+    margin: 5rem;
+    padding: 2rem 4rem;
+    background:coral ;
+    border: 0.3rem solid coral;
+    color: white;
+    font-size: 2.3rem;
+    border-radius: 1rem;
+    
+}
+
+#test{
+    background-color: aqua;
+}
+
+.boxm{
+    background-color: rgb(69, 0, 106);
+    color: aliceblue;
+    padding: 20px; 
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text-section{
+    font-size: 1.5em;
+    /* 16*1.5 */
+}
+
+/* text size by default in html is 16px */
+
+.text-section div{
+    font-size: 1.5em;
+    margin-top: 2em;
+    /* 16*1.5*1.5*2 */
+}
+
+.aaa{
+    display: block;
+    height: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: gray;
+}
